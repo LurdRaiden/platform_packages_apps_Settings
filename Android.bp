@@ -63,7 +63,8 @@ android_library {
     aaptflags: ["--extra-packages com.syberia.settings"],
 
     resource_dirs: ["res",
-                    "SyberiaSettings/res"
+                    "SyberiaSettings/res",
+                    "res-ui"
     ],
 
     static_libs: [
