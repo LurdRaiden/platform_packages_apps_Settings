@@ -161,6 +161,6 @@ public class TopLevelBatteryPreferenceController extends BasePreferenceControlle
         }
         int lastPkgIndex = classPath.length() - split[classNameIndex].length() - 1;
         String pkgName = lastPkgIndex > 0 ? classPath.substring(0, lastPkgIndex) : "";
-        return new ComponentName(pkgName, split[classNameIndex]);
+        return new ComponentName(pkgName, split[classNameIndex]);     
     }
 }
