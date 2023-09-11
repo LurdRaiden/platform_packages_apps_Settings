@@ -21,13 +21,6 @@
     android:key="top_level_settings"
     android:title="Settings">
 
-
-   <com.android.settingslib.widget.LayoutPreference
-        android:layout="@layout/usercard"
-        android:fragment="com.android.settings.users.UserSettings"
-        android:key="top_level_usercard"
-        android:order="-170" />
-
    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
         android:key="top_level_about_device"
